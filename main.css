@@ -1,0 +1,63 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height:1.6;
+	font-size:20px;
+	color:#444;
+}
+
+header.intro {
+	text-align: center;
+	color: rgb(300, 300, 300);
+	background: repeating-radial-gradient( circle at center -100px, #352859, #352859 10px, #273457 10px, #273457 20px );
+	padding: 20px 0;
+}
+
+header.intro div.container {
+	margin: 100px 0;
+}
+
+header.intro svg#logo {
+	fill: #fff;
+}
+
+nav {
+	background: #352859;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	padding: 1em;
+	background: #273457;
+	margin: 1em;
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+div.flows {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display:flex;
+}
+
+div.flows section.flow-column {
+	width: 33%;
+	padding: 10px;	
+}
+
+section.flow-column header h2 {
+	text-align: center;
+}
