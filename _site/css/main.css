@@ -1,0 +1,42 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	line-height:1.6;
+	font-size:20px;
+	font-family: sans-serif
+}
+
+body>header {
+	text-align: center;
+	padding: 20px 0;
+}
+
+header div.container {
+	position: relative;
+	height: 50vh;
+}
+
+body>header h1 {
+	margin: 0;
+	font-size: 3em;
+}
+
+section.flows {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display:flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+section.flows article {
+	max-width: 800px;
+}
+
+section.flows article header {
+	text-align: center;
+}
+
+body>footer {
+	text-align: center;
+}
