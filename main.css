@@ -1,63 +1,42 @@
 body, html {
 	margin: 0;
 	padding: 0;
-}
-
-body {
 	line-height:1.6;
 	font-size:20px;
-	color:#444;
+	font-family: sans-serif
 }
 
-header.intro {
+body>header {
 	text-align: center;
-	color: rgb(300, 300, 300);
-	background: repeating-radial-gradient( circle at center -100px, #352859, #352859 10px, #273457 10px, #273457 20px );
 	padding: 20px 0;
 }
 
-header.intro div.container {
-	margin: 100px 0;
+header div.container {
+	position: relative;
+	height: 50vh;
 }
 
-header.intro svg#logo {
-	fill: #fff;
-}
-
-nav {
-	background: #352859;
-}
-
-nav ul {
-	list-style: none;
+body>header h1 {
 	margin: 0;
-	padding: 0;
-	text-align: center;
+	font-size: 3em;
 }
 
-nav li {
-	display: inline-block;
-	padding: 1em;
-	background: #273457;
-	margin: 1em;
-}
-
-nav li a {
-	color: #fff;
-	text-decoration: none;
-}
-
-div.flows {
+section.flows {
 	display: -ms-flex;
 	display: -webkit-flex;
 	display:flex;
+	align-items: center;
+	justify-content: center;	
 }
 
-div.flows section.flow-column {
-	width: 33%;
-	padding: 10px;	
+section.flows article {
+	max-width: 800px;
 }
 
-section.flow-column header h2 {
+section.flows article header {
+	text-align: center;
+}
+
+body>footer {
 	text-align: center;
 }
