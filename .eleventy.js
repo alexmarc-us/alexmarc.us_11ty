@@ -16,7 +16,7 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter('dateReadable', date => {
-		return moment(date).format('MMMM Do YYYY [around] h:mm a');
+		return moment(date).format('MMMM Do, YYYY [around] h:mm a');
 	});
 
 	return {
