@@ -8,20 +8,12 @@ layout: main
 		<span class="p-summary">{{ subtitle }}</span>
 	</header>
 	<section class="e-content">
-		<p>
-			Hi there, thanks for stopping by!
-		</p>
-		<p>
-			You've found my site, which until recently contained information about my career and accomplishments.  It was okay, but not very dynamic or interesting (unless you were hiring me).  Now that I've landed a great job with one of my dream employers (Adobe), I'm repurposing this site as a playground for web experiments.  Talk about dynamic!  I'm sitting on a ferry, surrounded by people, and I just hand-coded the very beginnings of this page.  Ugly, huh?
-		</p>
-		<p>
-			Stick around, and something cool might happen.
-		</p>
+		{{ content | safe }}
 	</section>
 	<footer>
 		<p>
-			Hand-coded by <a class="p-author u-url" href="https://alexmarc.us">Alex Marcus</a>
-			on <time class="dt-published" datetime="2019-01-13 17:20:00">July 30<sup>th</sup>, 2019 around 17:20</time>
+			{{ source }} by <a class="p-author u-url" href="https://alexmarc.us">Alex Marcus</a>
+			on <time class="dt-published" datetime="{{ page.date | dateIso }}">{{ page.date | dateReadable }}</time>
 		</p>
 	</footer>
 </article>

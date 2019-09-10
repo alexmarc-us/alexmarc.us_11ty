@@ -7,22 +7,22 @@ header svg#logo {
 	fill: #444;
 }
 
-section.flows {
+main {
 	background: #fff;
 }
 
-section.flows article {
+main article {
 	background: #fff;
 	margin: 10px 0;
 	padding: 10px;
 	border: 10px solid #eee;
 }
 
-section.flows article header span {
+main article header span {
 	font-style: italic;
 }
 
-section.flows article footer {
+main article footer {
 	font-style: italic;
 	font-size: 0.75em;
 }

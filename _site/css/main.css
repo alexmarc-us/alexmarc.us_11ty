@@ -21,7 +21,7 @@ body>header h1 {
 	font-size: 3em;
 }
 
-section.flows {
+main {
 	display: -ms-flex;
 	display: -webkit-flex;
 	display:flex;
@@ -29,11 +29,11 @@ section.flows {
 	justify-content: center;	
 }
 
-section.flows article {
+main article {
 	max-width: 800px;
 }
 
-section.flows article header {
+main article header {
 	text-align: center;
 }
 
