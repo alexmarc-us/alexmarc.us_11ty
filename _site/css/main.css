@@ -8,7 +8,6 @@ body, html {
 
 body>header {
 	text-align: center;
-	padding: 20px 0;
 }
 
 header div.container {
@@ -19,6 +18,11 @@ header div.container {
 body>header h1 {
 	margin: 0;
 	font-size: 3em;
+}
+
+body>header h1 a {
+	text-decoration: none;
+	color: inherit;
 }
 
 main {
@@ -39,4 +43,26 @@ main article header {
 
 body>footer {
 	text-align: center;
+}
+
+body.min > header {
+	position: fixed;
+	height: 10vh;
+	width: 100%;
+	background: inherit;
+	top: 0;
+	padding: 1vh 0;
+}
+
+body.min > header div.container {
+	height: 10vh;
+	display: inline-block;
+}
+
+body.min > header h1 {
+	display: none;
+}
+
+body.min > main {
+	margin-top: 12vh;
 }
