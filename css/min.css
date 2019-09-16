@@ -11,6 +11,22 @@ main {
 	background: #fff;
 }
 
+main section.posts li>a.title {
+	display: block;
+	font-size: 2em;
+}
+
+main section.posts li>span.subtitle {
+	display:block;
+}
+
+main section.posts li>time {
+	font-size: 0.75em;
+	color: #333;
+	font-style: italic;
+	margin-left: 2em;
+}
+
 main article {
 	background: #fff;
 	margin: 10px 0;
