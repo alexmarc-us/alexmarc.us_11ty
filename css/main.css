@@ -34,6 +34,11 @@ main {
 	justify-content: center;	
 }
 
+main section.posts {
+	width: 100%;
+	max-width: 800px;
+}
+
 main section.posts > ul {
 	list-style: none;
 }
