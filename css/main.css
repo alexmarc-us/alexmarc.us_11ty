@@ -7,6 +7,7 @@ body, html {
 }
 
 body>header {
+	padding: 1vh 0;
 	text-align: center;
 }
 
@@ -33,6 +34,10 @@ main {
 	justify-content: center;	
 }
 
+main section.posts > ul {
+	list-style: none;
+}
+
 main article {
 	max-width: 800px;
 }
@@ -51,7 +56,6 @@ body.min > header {
 	width: 100%;
 	background: inherit;
 	top: 0;
-	padding: 1vh 0;
 }
 
 body.min > header div.container {
