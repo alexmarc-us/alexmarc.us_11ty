@@ -11,6 +11,20 @@ main {
 	background: #fff;
 }
 
+main section.posts h2 {
+	text-align: center;
+}
+
+main section.posts>ul {
+	padding: 0;
+}
+
+main section.posts li {
+	margin: 10px 0;
+	padding: 10px;
+	border: 10px solid #eee;
+}
+
 main section.posts li>a.title {
 	display: block;
 	font-size: 2em;
@@ -38,7 +52,7 @@ main article header span {
 	font-style: italic;
 }
 
-main article footer {
-	font-style: italic;
-	font-size: 0.75em;
+main article header p.p-summary {
+	border: 5px solid #eee;
+	padding: 1em;
 }
