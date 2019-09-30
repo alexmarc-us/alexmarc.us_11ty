@@ -80,6 +80,7 @@ body.min > header {
 	width: 100%;
 	background: inherit;
 	top: 0;
+	padding: 0;
 }
 
 body.min > header div.container {

@@ -1,7 +1,7 @@
 ---
 tags: [ 'posts','articles','social','SOLID','web' ]
 title: 'Social Silos and The Internet' 
-summary: 'Laying the groundwork for an old approach to the next iteration of our social web'
+summary: 'Laying the groundwork for a tried-and-true approach to the next iteration of our social web'
 ---
 ## The world is changing, again
 
