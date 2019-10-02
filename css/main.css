@@ -70,8 +70,10 @@ main article footer {
 	text-align: right;
 }
 
-body>footer {
+body>footer section.h-card {
+	max-width: 400px;
 	text-align: center;
+	margin: 0 auto;
 }
 
 body.min > header {

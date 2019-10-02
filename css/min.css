@@ -56,3 +56,12 @@ main article header p.p-summary {
 	border: 5px solid #eee;
 	padding: 1em;
 }
+
+body>footer {
+	padding: 1em;
+}
+
+body>footer .h-card {
+	border: 10px solid #ffffff;
+	padding: 1em;
+}
