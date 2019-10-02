@@ -78,7 +78,7 @@ body>footer section.h-card {
 
 body.min > header {
 	position: fixed;
-	height: 10vh;
+	height: 12vh;
 	width: 100%;
 	background: inherit;
 	top: 0;
