@@ -1,3 +1,4 @@
 {
-	"layout": "article.njk"
+	"layout": "article.njk",
+	"permalink": "posts/articles/{{ title | slug }}/index.html"
 }
