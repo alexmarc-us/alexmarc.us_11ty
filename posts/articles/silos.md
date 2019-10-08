@@ -1,5 +1,10 @@
 ---
-tags: [ 'posts','articles','social','SOLID','web' ]
+tags: 
+ - posts
+ - articles
+ - social
+ - SOLID
+ - web
 title: 'Social Silos and The Internet' 
 summary: 'Laying the groundwork for a tried-and-true approach to the next iteration of our social web'
 ---
