@@ -77,6 +77,11 @@ body>footer section.h-card {
 	margin: 0 auto;
 }
 
+body>footer section.h-card img.u-photo {
+	width: 100%;
+	margin-top: 1em;
+}
+
 body.min > header {
 	position: fixed;
 	height: 12vh;
