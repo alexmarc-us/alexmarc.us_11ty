@@ -7,5 +7,9 @@ layout: main
 bodyClass: min
 permalink: /tags/{{ tag }}/
 ---
-{% set postslist = collections[ tag ] %}
-{% include "postslist.njk" %}
+<section>
+	<h1>Posts about {{ tag | capitalize }}</h1>
+
+	{% set postslist = collections[ tag ] %}
+	{% include "postslist.njk" %}
+</section>

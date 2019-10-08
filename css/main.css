@@ -31,16 +31,17 @@ main {
 	display: -ms-flex;
 	display: -webkit-flex;
 	display:flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;	
 }
 
-main section.posts {
+main>section {
 	width: 100%;
 	max-width: 800px;
 }
 
-main section.posts > ul {
+ul.posts-list {
 	list-style: none;
 }
 

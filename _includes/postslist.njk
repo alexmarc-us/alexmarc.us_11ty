@@ -1,20 +1,12 @@
-<section class="posts">
-	{% if listSubject %}
-	<h2>Posts about {{ listSubject | capitalize }}</h2>
-	{% else %}
-	<h2>Posts</h2>
-	{% endif %}
-	<ul>
-		{% for post in postslist | reverse %}
-		<li>
-			<a class="title" href="{{ post.url }}">{{ post.data.title }}</a>
-			{% if post.data.summary %}
-				<p class="p-summary">{{ post.data.summary }}</p>
-			{% endif %}
+<ul class="posts-list">
+	{% for post in postslist | reverse %}
+	<li>
+		<a class="title" href="{{ post.url }}">{{ post.data.title }}</a>
+		{% if post.data.summary %}
+			<p class="p-summary">{{ post.data.summary }}</p>
+		{% endif %}
 
-			<time class="dt-published" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-		</li>
-		{%- endfor -%}
-	</ul>			
-</section>
-
+		<time class="dt-published" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+	</li>
+	{%- endfor -%}
+</ul>			

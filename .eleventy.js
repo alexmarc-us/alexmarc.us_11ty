@@ -22,6 +22,16 @@ module.exports = function(eleventyConfig) {
 		return moment(date).format('MMMM Do, YYYY [around] h:mm a');
 	});
 
+	// Get the first `n` elements of a collection.
+	eleventyConfig.addFilter("head", (array, n) => {
+		if( n < 0 ) {
+			return array.slice(n);
+		}
+
+		return array.slice(0, n);
+	});
+
+
 	return {
 		dir: {
 			input: ".",

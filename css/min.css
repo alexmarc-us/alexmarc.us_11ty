@@ -11,30 +11,26 @@ main {
 	background: #fff;
 }
 
-main section.posts h2 {
-	text-align: center;
-}
-
-main section.posts>ul {
+ul.posts-list {
 	padding: 0;
 }
 
-main section.posts li {
+ul.posts-list li {
 	margin: 10px 0;
 	padding: 10px;
 	border: 10px solid #eee;
 }
 
-main section.posts li>a.title {
+ul.posts-list li>a.title {
 	display: block;
 	font-size: 2em;
 }
 
-main section.posts li>span.subtitle {
+ul.posts-list li>span.subtitle {
 	display:block;
 }
 
-main section.posts li>time {
+ul.posts-list li>time {
 	font-size: 0.75em;
 	color: #333;
 	font-style: italic;
