@@ -1,14 +1,14 @@
 html, body {
-	color:#444;
-	background: #eee;
+	color: var(--primary-text-color);
+	background: var(--primary-bg-color);
 }
 
 header svg#logo {
-	fill: #444;
+	fill: var(--logo-fill);
 }
 
 main {
-	background: #fff;
+	background: var(--main-bg-color);
 }
 
 ul.posts-list {
@@ -18,7 +18,7 @@ ul.posts-list {
 ul.posts-list li {
 	margin: 10px 0;
 	padding: 10px;
-	border: 10px solid #eee;
+	border: 10px solid var(--post-border);
 }
 
 ul.posts-list li>a.title {
@@ -32,16 +32,16 @@ ul.posts-list li>span.subtitle {
 
 ul.posts-list li>time {
 	font-size: 0.75em;
-	color: #333;
+	color: var(--post-border);
 	font-style: italic;
 	margin-left: 2em;
 }
 
 main article {
-	background: #fff;
+	background: var(--article-bg-color);
 	margin: 10px 0;
 	padding: 10px;
-	border: 10px solid #eee;
+	border: 10px solid var(--post-border);
 }
 
 main article header span {
@@ -49,7 +49,7 @@ main article header span {
 }
 
 main article header p.p-summary {
-	border: 5px solid #eee;
+	border: 5px solid var(--post-border);
 	padding: 1em;
 }
 
@@ -58,6 +58,6 @@ body>footer {
 }
 
 body>footer .h-card {
-	border: 10px solid #ffffff;
+	border: 10px solid var(--footer-border);
 	padding: 1em;
 }
