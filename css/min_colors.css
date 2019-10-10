@@ -1,4 +1,4 @@
-body {
+body.theme-min {
 	/* Layout colors */
 	--primary-text-color: #444;
 	--secondard-text-color: #333;
@@ -12,12 +12,12 @@ body {
 	--footer-border: #fff;
 }
 
-body.min.dark {
+body.theme-min.color-dark {
 	/* Layout colors */
 	--primary-text-color: #444;
 	--secondard-text-color: #333;
 	--primary-bg-color: #eee;
-	--main-bg-color: #fff;
+	--main-bg-color: black;
 	--article-bg-color: #fff;
 
 	/* Element-specific colors */
