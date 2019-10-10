@@ -6,25 +6,6 @@ body, html {
 	font-family: sans-serif
 }
 
-body.expanded>header {
-	position: relative;
-	padding: 1vh 0;
-	height: auto;
-}
-
-body.expanded header div.container {
-	position: relative;
-	height: 30vh;
-}
-
-body.expanded main {
-	margin-top: auto;
-}
-
-body.expanded > header h1 {
-	display: block;
-}
-
 body > header {
 	position: fixed;
 	height: 12vh;
@@ -113,3 +94,25 @@ body>footer section.h-card img.u-photo {
 	margin-top: 1em;
 }
 
+/* Expanded page style overrides */
+
+body.expanded>header {
+	position: relative;
+	padding: 1vh 0;
+	height: auto;
+}
+
+body.expanded header div.container {
+	position: relative;
+	height: 30vh;
+}
+
+body.expanded main {
+	margin-top: auto;
+}
+
+body.expanded > header h1 {
+	display: block;
+}
+
+/* End: Expanded page style overrides */
