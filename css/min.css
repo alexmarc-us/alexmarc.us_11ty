@@ -32,7 +32,7 @@ ul.posts-list li>span.subtitle {
 
 ul.posts-list li>time {
 	font-size: 0.75em;
-	color: var(--post-border);
+	color: var(--secondary-text-color);
 	font-style: italic;
 	margin-left: 2em;
 }

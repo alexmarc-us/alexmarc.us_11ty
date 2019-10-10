@@ -1,7 +1,7 @@
 body.theme-min {
 	/* Layout colors */
-	--primary-text-color: #444;
-	--secondard-text-color: #333;
+	--primary-text-color: #454545;
+	--secondary-text-color: #333;
 	--primary-bg-color: #eee;
 	--main-bg-color: #fff;
 	--article-bg-color: #fff;
@@ -12,10 +12,11 @@ body.theme-min {
 	--footer-border: #fff;
 }
 
+/* TODO: Dark theme color setup */
 body.theme-min.color-dark {
 	/* Layout colors */
 	--primary-text-color: #444;
-	--secondard-text-color: #333;
+	--secondary-text-color: #333;
 	--primary-bg-color: #eee;
 	--main-bg-color: black;
 	--article-bg-color: #fff;
