@@ -6,17 +6,48 @@ body, html {
 	font-family: sans-serif
 }
 
-body>header {
+body.expanded>header {
+	position: relative;
 	padding: 1vh 0;
+	height: auto;
+}
+
+body.expanded header div.container {
+	position: relative;
+	height: 30vh;
+}
+
+body.expanded main {
+	margin-top: auto;
+}
+
+body.expanded > header h1 {
+	display: block;
+}
+
+body > header {
+	position: fixed;
+	height: 12vh;
+	width: 100%;
+	background: inherit;
+	top: 0;
+	padding: 0;
 	text-align: center;
 }
 
-header div.container {
-	position: relative;
-	height: 30vh;
+body > header div.container {
+	height: 10vh;
+	display: inline-block;
 	margin-top: .5em;
 }
 
+body > header h1 {
+	display: none;
+}
+
+body > main {
+	margin-top: 12vh;
+}
 body>header h1 {
 	margin: 0;
 	font-size: 3em;
@@ -82,24 +113,3 @@ body>footer section.h-card img.u-photo {
 	margin-top: 1em;
 }
 
-body.min > header {
-	position: fixed;
-	height: 12vh;
-	width: 100%;
-	background: inherit;
-	top: 0;
-	padding: 0;
-}
-
-body.min > header div.container {
-	height: 10vh;
-	display: inline-block;
-}
-
-body.min > header h1 {
-	display: none;
-}
-
-body.min > main {
-	margin-top: 12vh;
-}
