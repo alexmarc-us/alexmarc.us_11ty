@@ -11,6 +11,10 @@ main {
 	background: var(--main-bg-color);
 }
 
+a {
+	color: var(--link);
+}
+
 ul.posts-list {
 	padding: 0;
 }
