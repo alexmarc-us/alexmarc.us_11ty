@@ -61,7 +61,11 @@ body>footer {
 	padding: 1em;
 }
 
-body>footer .h-card {
+body>footer section {
 	border: 10px solid var(--footer-border);
 	padding: 1em;
+}
+
+body>footer section:not(:last-of-type) {
+	margin-bottom: 1em;
 }

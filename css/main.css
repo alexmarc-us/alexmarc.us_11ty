@@ -83,7 +83,7 @@ main article footer {
 	text-align: right;
 }
 
-body>footer section.h-card {
+body>footer section {
 	max-width: 400px;
 	text-align: center;
 	margin: 0 auto;
