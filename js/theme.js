@@ -1,9 +1,17 @@
 window.onload = function() {
-	// Enable theme and color selection on change
+	// Load theme selection from localstorage
+	loadThemePrefs();
+
+	// Enable theme selection on change
 	var themeSelector = document.getElementById("theme-select");
-	var colorSelector = document.getElementById("color-select");
+	var themeColorSelector = document.getElementById("theme-color-select");
 	if (themeSelector) themeSelector.onchange = setTheme;
-	if (colorSelector) colorSelector.onchange = setThemeColor;
+	if (themeColorSelector) themeColorSelector.onchange = setThemeColor;
+
+	function loadThemePrefs() {
+		
+	}
+
 
 	// Sets the current body theme to themeSelector value
 	function setTheme() {
@@ -12,15 +20,21 @@ window.onload = function() {
 		removeBodyClassMatch("theme-");
 
 		document.body.classList.add("theme-" + themeName);
+
+		// Store selection in localstorage
+		localStorage.setItem("theme", themeName);
 	}
 
-	// Sets the current body color to colorSelector value
+	// Sets the current body themeColor to themeColorSelector value
 	function setThemeColor() {
-		var colorName = colorSelector.value;
+		var themeColorName = themeColorSelector.value;
 		
-		removeBodyClassMatch("color-");
+		removeBodyClassMatch("theme-color-");
 
-		document.body.classList.add("color-" + colorName);
+		document.body.classList.add("theme-color-" + themeColorName);
+
+		// Store selection in localstorage
+		localStorage.setItem("themeColor", themeColorName);
 	}
 		
 	// Removes all classes matching the parameter classMatch from body

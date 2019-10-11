@@ -15,7 +15,7 @@ body.theme-min {
 }
 
 /* Dark min theme colors */
-body.theme-min.color-dark {
+body.theme-min.theme-color-dark {
 	/* Layout colors */
 	--primary-text-color: #F1F1F1;
 	--secondary-text-color: #E5E5E5;
