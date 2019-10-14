@@ -29,3 +29,19 @@ body.theme-min.theme-color-dark {
 	--footer-border: #454545;
 	--link: #4187AF;
 }
+
+/* Purple min theme colors */
+body.theme-min.theme-color-purple {
+	/* Layout colors */
+	--primary-text-color: #F1F1F1;
+	--secondary-text-color: #E5E5E5;
+	--primary-bg-color: #352859;
+	--main-bg-color: #4d2859;
+	--article-bg-color: #431E4F;
+
+	/* Element-specific colors */
+	--logo-fill: #fff;
+	--post-border: #283359;
+	--footer-border: #283359;
+	--link: #5DA3CB;
+}
