@@ -5,12 +5,12 @@ body.theme-min {
 	--secondary-text-color: #333;
 	--primary-bg-color: #eee;
 	--main-bg-color: #fff;
-	--article-bg-color: #f9f9f10;
+	--article-bg-color: #e1e1e1;
 
 	/* Element-specific colors */
 	--logo-fill: #444;
 	--post-border: #eee;
-	--footer-border: #fff;
+	--footer-border: #d8d8d8;
 	--link: #01476f;
 }
 
@@ -21,7 +21,7 @@ body.theme-min.theme-color-dark {
 	--secondary-text-color: #E5E5E5;
 	--primary-bg-color: #111;
 	--main-bg-color: #222;
-	--article-bg-color: #0E0E0E;
+	--article-bg-color: #292929;
 
 	/* Element-specific colors */
 	--logo-fill: #A4A4A4;
@@ -37,11 +37,11 @@ body.theme-min.theme-color-purple {
 	--secondary-text-color: #E5E5E5;
 	--primary-bg-color: #352859;
 	--main-bg-color: #4d2859;
-	--article-bg-color: #431E4F;
+	--article-bg-color: #273457;
 
 	/* Element-specific colors */
 	--logo-fill: #fff;
-	--post-border: #283359;
-	--footer-border: #283359;
+	--post-border: rgb(142, 126, 185);
+	--footer-border: rgb(142, 126, 185);
 	--link: #5DA3CB;
 }

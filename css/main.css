@@ -10,7 +10,6 @@ body > header {
 	position: fixed;
 	height: 12vh;
 	width: 100%;
-	background: inherit;
 	top: 0;
 	padding: 0;
 	text-align: center;

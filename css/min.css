@@ -3,6 +3,10 @@ html, body {
 	background: var(--primary-bg-color);
 }
 
+header {
+	background: repeating-radial-gradient( circle at center 110%, var(--primary-bg-color), var(--primary-bg-color) 10px, var(--article-bg-color) 10px, var(--article-bg-color) 20px );
+}
+
 header svg#logo {
 	fill: var(--logo-fill);
 }
@@ -23,6 +27,7 @@ ul.posts-list li {
 	margin: 10px 0;
 	padding: 10px;
 	border: 10px solid var(--post-border);
+	background: var(--article-bg-color);
 }
 
 ul.posts-list li>a.title {
@@ -64,6 +69,11 @@ body>footer {
 body>footer section {
 	border: 10px solid var(--footer-border);
 	padding: 1em;
+	background: var(--main-bg-color);
+}
+
+body > footer section > section {
+	background: var(--article-bg-color);
 }
 
 body>footer section:not(:last-of-type) {
