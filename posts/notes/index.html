@@ -1,0 +1,17 @@
+---
+layout: main
+title: 'Notes'
+permalink: 'posts/notes/'
+---
+<section class="posts">
+	<h2>Notes</h2>
+	<ul>
+		{%- for note in collections.notes -%}
+		<li>
+			{{ note.content | safe }}
+			<time class="dt-published" datetime="{{ note.date | dateIso }}">{{ note.date | dateReadable }}</time>
+		</li>
+		{%- endfor -%}
+	</ul>			
+</section>
+
