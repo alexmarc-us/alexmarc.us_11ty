@@ -3,7 +3,7 @@ html, body {
 	background: var(--primary-bg-color);
 }
 
-header {
+body > header {
 	background: repeating-radial-gradient( circle at center 110%, var(--primary-bg-color), var(--primary-bg-color) 10px, var(--article-bg-color) 10px, var(--article-bg-color) 20px );
 }
 
