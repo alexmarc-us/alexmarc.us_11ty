@@ -6,6 +6,7 @@ tags:
  - SOLID
  - web
 title: 'Social Silos and The Internet' 
+date: 2019-09-24T07:52:34-0700
 summary: 'Laying the groundwork for a tried-and-true approach to the next iteration of our social web'
 ---
 ## The world is changing, again
