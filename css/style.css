@@ -1,3 +1,36 @@
+/* Default light theme colors */
+body.theme-light {
+	/* Layout colors */
+	--primary-text-color: #454545;
+	--secondary-text-color: #333;
+	--primary-bg-color: #eee;
+	--main-bg-color: #e0e0e0;
+	--article-bg-color: #e1e1e1;
+
+	/* Element-specific colors */
+	--logo-fill: #444;
+	--post-border: #eee;
+	--footer-border: #d8d8d8;
+	--link: #01476f;
+}
+
+/* Dark theme colors */
+body.theme-dark {
+	/* Layout colors */
+	--primary-text-color: #F1F1F1;
+	--secondary-text-color: #E5E5E5;
+	--primary-bg-color: #111;
+	--main-bg-color: #222;
+	--article-bg-color: #292929;
+
+	/* Element-specific colors */
+	--logo-fill: #A4A4A4;
+	--post-border: #333333;
+	--footer-border: #454545;
+	--link: #4187AF;
+}
+
+/* Color settings */
 html, body {
 	color: var(--primary-text-color);
 	background: var(--primary-bg-color);

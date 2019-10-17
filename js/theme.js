@@ -26,40 +26,19 @@ function setTheme(themeName) {
 	localStorage.setItem("theme", themeName);
 }
 
-// Sets the current body themeColor to theme color parameter
-function setThemeColor(themeColorName) {
-	removeBodyClassMatch("theme-color-");
-
-	document.body.classList.add("theme-color-" + themeColorName);
-
-	// Store selection in localstorage
-	localStorage.setItem("themeColor", themeColorName);
-}
-
-
-
 // Once the DOM is loaded but before images, styles, etc. load
 window.addEventListener('DOMContentLoaded', event => {
 	// Load theme selection from localstorage
 	var themePref = localStorage.getItem("theme");
-	var themeColorPref = localStorage.getItem("themeColor");
 
 	if (themePref) setTheme(themePref);
-	if (themeColorPref) setThemeColor(themeColorPref);
 
 	// Enable theme selection on change
 	var themeSelector = document.getElementById("theme-select");
-	var themeColorSelector = document.getElementById("theme-color-select");
 	if (themeSelector) {
 		themeSelector.onchange = () => setTheme(themeSelector.value);
 
 		// Set theme selector to stored value, or default
 		themeSelector.value = themePref || "";
-	}
-	if (themeColorSelector) {
-		themeColorSelector.onchange = () => setThemeColor(themeColorSelector.value);
-
-		// Set theme color selector to stored value, or default
-		themeColorSelector.value = themeColorPref || "";
 	}
 });
