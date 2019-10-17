@@ -4,6 +4,6 @@ bodyClass: expanded
 ---
 <section>
 	<h2>Most Recent Posts</h2>
-	{% set postslist = collections.posts | head(-3) %}
+	{% set postslist = collections.posts %}
 	{% include "postslist.njk" %}
 </section>
