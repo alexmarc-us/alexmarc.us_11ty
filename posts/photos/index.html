@@ -1,0 +1,18 @@
+---
+layout: main
+title: 'Photos'
+permalink: 'posts/photos/'
+---
+<section class="posts">
+	<h2>Photos</h2>
+	<ul>
+		{%- for photo in collections.photos -%}
+		<li>
+			<a class="title" href="{{ photo.url }}">{{ photo.data.title }}</a>
+			{{ photo.content | safe }}
+			<time class="dt-published" datetime="{{ photo.date | dateIso }}">{{ photo.date | dateReadable }}</time>
+		</li>
+		{%- endfor -%}
+	</ul>			
+</section>
+
