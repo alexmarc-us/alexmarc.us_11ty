@@ -1,0 +1,121 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	line-height:1.5;
+	font-size:1em;
+	font-family: sans-serif
+}
+
+body > header {
+	position: fixed;
+	height: 12vh;
+	width: 100%;
+	top: 0;
+	padding: 0;
+	text-align: center;
+}
+
+body > header div.container {
+	height: 10vh;
+	display: inline-block;
+	margin-top: .5em;
+}
+
+body > header h1 {
+	display: none;
+}
+
+body > main {
+	margin-top: 12vh;
+}
+body>header h1 {
+	margin: 0;
+	font-size: 3em;
+}
+
+body>header h1 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+main {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+}
+
+main>section {
+	width: 100%;
+	max-width: 800px;
+}
+
+ul.posts-list {
+	list-style: none;
+}
+
+main article {
+	max-width: 800px;
+}
+
+main article header {
+	text-align: center;
+}
+
+main article header h1 {
+	font-size: 2.5em;
+}
+
+main article header p.p-summary {
+	font-style: italic;
+}
+
+main article p {
+	text-indent: 1em;
+}
+
+main article footer {
+	font-style: italic;
+	font-size: 0.75em;
+	text-align: right;
+}
+
+body>footer section {
+	max-width: 400px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+body > footer section > section {
+	margin-top:1em;
+}
+
+body>footer section.h-card img.u-photo {
+	width: 100%;
+	margin-top: 1em;
+}
+
+/* Expanded page style overrides */
+
+body.expanded>header {
+	position: relative;
+	padding: 1vh 0;
+	height: auto;
+}
+
+body.expanded header div.container {
+	position: relative;
+	height: 30vh;
+}
+
+body.expanded main {
+	margin-top: auto;
+}
+
+body.expanded > header h1 {
+	display: block;
+}
+
+/* End: Expanded page style overrides */

@@ -1,0 +1,114 @@
+/* Default light theme colors */
+body.theme-light {
+	/* Layout colors */
+	--primary-text-color: #454545;
+	--secondary-text-color: #333;
+	--primary-bg-color: #eee;
+	--main-bg-color: #e0e0e0;
+	--article-bg-color: #e1e1e1;
+
+	/* Element-specific colors */
+	--logo-fill: #444;
+	--post-border: #eee;
+	--footer-border: #d8d8d8;
+	--link: #01476f;
+}
+
+/* Dark theme colors */
+body.theme-dark {
+	/* Layout colors */
+	--primary-text-color: #F1F1F1;
+	--secondary-text-color: #E5E5E5;
+	--primary-bg-color: #111;
+	--main-bg-color: #222;
+	--article-bg-color: #292929;
+
+	/* Element-specific colors */
+	--logo-fill: #A4A4A4;
+	--post-border: #333333;
+	--footer-border: #454545;
+	--link: #4187AF;
+}
+
+/* Color settings */
+html, body {
+	color: var(--primary-text-color);
+	background: var(--primary-bg-color);
+}
+
+body > header {
+	background: repeating-radial-gradient( circle at center 110%, var(--primary-bg-color), var(--primary-bg-color) 10px, var(--article-bg-color) 10px, var(--article-bg-color) 20px );
+}
+
+header svg#logo {
+	fill: var(--logo-fill);
+}
+
+main {
+	background: var(--main-bg-color);
+}
+
+a {
+	color: var(--link);
+}
+
+ul.posts-list {
+	padding: 0;
+}
+
+ul.posts-list li {
+	margin: 10px 0;
+	padding: 10px;
+	border: 10px solid var(--post-border);
+	background: var(--article-bg-color);
+}
+
+ul.posts-list li>a.title {
+	display: block;
+	font-size: 2em;
+}
+
+ul.posts-list li>span.subtitle {
+	display:block;
+}
+
+ul.posts-list li>time {
+	font-size: 0.75em;
+	color: var(--secondary-text-color);
+	font-style: italic;
+	margin-left: 2em;
+}
+
+main article {
+	background: var(--article-bg-color);
+	margin: 10px 0;
+	padding: 10px;
+	border: 10px solid var(--post-border);
+}
+
+main article header span {
+	font-style: italic;
+}
+
+main article header p.p-summary {
+	border: 5px solid var(--post-border);
+	padding: 1em;
+}
+
+body>footer {
+	padding: 1em;
+}
+
+body>footer section {
+	border: 10px solid var(--footer-border);
+	padding: 1em;
+	background: var(--main-bg-color);
+}
+
+body > footer section > section {
+	background: var(--article-bg-color);
+}
+
+body>footer section:not(:last-of-type) {
+	margin-bottom: 1em;
+}
