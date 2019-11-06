@@ -1,0 +1,4 @@
+{
+	"layout": "article.njk",
+	"permalink": "working/{{ title | slug }}/index.html"
+}
