@@ -1,0 +1,4 @@
+{
+	"layout": "article.njk",
+	"permalink": "thinking/{{ title | slug }}/index.html"
+}
