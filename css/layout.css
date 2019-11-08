@@ -7,8 +7,6 @@ body, html {
 }
 
 body > header {
-	position: fixed;
-	height: 12vh;
 	width: 100%;
 	top: 0;
 	padding: 0;
@@ -25,9 +23,6 @@ body > header h1 {
 	display: none;
 }
 
-body > main {
-	margin-top: 12vh;
-}
 body>header h1 {
 	margin: 0;
 	font-size: 3em;
@@ -54,6 +49,10 @@ main>section {
 
 ul.posts-list {
 	list-style: none;
+}
+
+main > img {
+    margin: 1em;
 }
 
 main article {
@@ -90,11 +89,6 @@ body>footer section {
 
 body > footer section > section {
 	margin-top:1em;
-}
-
-body>footer section.h-card img.u-photo {
-	width: 100%;
-	margin-top: 1em;
 }
 
 /* Expanded page style overrides */
