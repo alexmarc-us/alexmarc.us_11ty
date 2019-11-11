@@ -40,6 +40,10 @@ body > header {
 	background: repeating-radial-gradient( circle at center 110%, var(--primary-bg-color), var(--primary-bg-color) 10px, var(--article-bg-color) 10px, var(--article-bg-color) 20px );
 }
 
+body > header > nav { 
+    font-size: 1.5em;
+}
+
 header svg#logo {
 	fill: var(--logo-fill);
 }
