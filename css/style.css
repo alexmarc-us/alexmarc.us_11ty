@@ -44,6 +44,12 @@ body > header > nav {
     font-size: 1.5em;
 }
 
+body > header > nav > a.disabled { 
+    text-decoration: line-through;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
 header svg#logo {
 	fill: var(--logo-fill);
 }
@@ -81,6 +87,12 @@ ul.posts-list li>time {
 	color: var(--secondary-text-color);
 	font-style: italic;
 	margin-left: 2em;
+}
+
+main section.construction {
+    border: 5px solid var(--post-border);
+    padding: 1em;
+    margin: 1em 0;
 }
 
 main article {

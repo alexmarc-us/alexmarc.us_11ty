@@ -1,6 +1,6 @@
 /**
  * Functionality related to theme setting and preference storage
- */	
+ */
 
 // Removes all classes matching the parameter classMatch from body
 function removeBodyClassMatch (classMatch) {
@@ -39,6 +39,6 @@ window.addEventListener('DOMContentLoaded', event => {
 		themeSelector.onchange = () => setTheme(themeSelector.value);
 
 		// Set theme selector to stored value, or default
-		themeSelector.value = themePref || "";
+		themeSelector.value = themePref || "light";
 	}
 });
